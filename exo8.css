@@ -1,0 +1,62 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+#corp
+{
+  background-image: url(https://goodies.pcastuces.com/vignettes/8820_l.jpg) ;
+  background-size: 100% auto;
+  background-repeat: round;
+}
+
+.targeted {
+  display: none;
+}
+
+.targeted:target {
+  display: block;
+}
+#moi
+{
+  display: none;
+}
+#moi:target
+{
+  display: block;
+}
+footer
+{
+  background-color: #e1f4fb;
+  display: flex;
+  justify-content: center;
+}
+.liens > a > img
+{
+  display: inline;
+  width:50px ;
+  height:50px;
+}
+.container-fluid
+{
+  margin-top: -32px;
+}
+
+.jumbotron
+{
+  background-color: inherit;
+  height: 350px;
+  padding-top: 0em;
+}
+
+#photo img
+{
+  display: block;
+  height: 82vh;
+}
+.liens
+{
+  display: flex;
+  justify-content: center;
+}
