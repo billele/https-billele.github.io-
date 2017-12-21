@@ -1,0 +1,119 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+ body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body
+{
+  background-image: url("http://www.gamemaker.fr/pages/tuto/Paint-CielEtoile/cieltoil7sx.png");
+}
+.content
+{
+  color: white;
+  margin-left: 150px;
+}
+p
+{
+  color: white;
+}
+.haut
+{
+  height:100vh;
+  text-align: center;
+  margin-top: 25%;
+}
+.haut > *:first-child
+{
+  font-size: 94px;
+  font-style: italic;
+}
+.vide
+{
+  height: 100vh;
+}
+.x
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.deux
+{
+  border: 1px #00241b solid;
+  height: 200px;
+  width: 46%;
+  border-radius: 12% ;
+  margin-top: -20px;
+  background-color: #00241b;
+  text-align: right;
+  box-shadow: 0px 0px #888888;
+}
+.un.deux
+{
+
+align-self: flex-end;
+
+}
+.un.deux:hover
+{
+  backround-color: red;
+ color: #232323;
+}
+.trois
+{
+  background-color: #82ddf0;
+}
+.quatre
+{
+  background-color: #d9fff8;
+}
+.container
+{
+width: 100%;
+height: 100%;
+}
+.deux > *:first-child
+{
+  padding-top: 60px;
+}
+.deux p
+{
+  padding-right: 50px;
+}
+.un > *:first-child
+{
+  padding-top: 60px;
+}
+.un p
+{
+  padding-left: 50px;
+}
+p
+{
+  font-family: "basic_sans_altregular", sans-serif;
+}
+.bas
+{
+  font-size: x-large;
+}
+.containerbas
+{
+  color: white;
+  width: 100vw;
+  height: 306px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.bas > h1
+{
+  font-size: 23px;
+  width: 266px;
+}
